@@ -1,0 +1,458 @@
+:root {
+    --color-white:#fff;
+    --color-white2:#F6F2ED;
+    --dark-color1: #0A0A0A;
+    --dark-color2: #717171;
+    --dark-color3: #141414;
+    --dark-color4: #1E1E1E;
+    --dark-color5: #191919;
+    --color-gray:#696969;
+    --color-gray1:#8D8D8D;
+
+    --dark-primary:#C09763;
+    --white-op7:rgb(255 255 255 / 7%);
+    --white-op10:rgb(255 255 255 / 10%);
+    --white-op20:rgb(255 255 255 / 20%);
+    --white-op50:rgb(255 255 255 / 50%);
+    --white-op60:rgb(255 255 255 / 60%);
+    /* dark gradient */
+    --dark-gradient-1:linear-gradient(313.49deg, #FFF4DD 2.4%, #F1FFDE 49.55%, #E7FFD8 82.23%);
+    --dark-gradient-2:linear-gradient(180deg, rgba(12, 35, 24, 0) 60%, #0C2318 100%);
+
+
+}
+
+/* Luxury Hotel dark */
+.hotelio-header-area,
+.hero-section-one,
+.about-section-one,
+.our-facilities-section-one,
+.testimonial-section-one {
+    background: var(--dark-color1);
+}
+.header-menu ul li a,
+.header-menu ul li a i,
+.header-call-info p,
+.about-section-one .about-box-content h3,
+.about-section-one .about-box-content span,
+.testimonial-section-one .testi-counter-box .client,
+.testimonial-section-one .testi-counter-box p,
+.testimonial-section-one .autor-title,
+.blog-section-one .blog-content h1 a,
+.blog-section-one .blog-user a {
+    color: var(--color-white);
+}
+.about-section-one .section-border {
+    border-bottom: 1px solid var(--white-op10);
+}
+.section-title h1,
+.about-section-one .about-title h2,
+.about-section-one .about-list ul li,
+.our-facilities-section-one .facilities-content h2 {
+    color: var(--color-white2);
+}
+.about-section-one .about-desc p {
+    color: var(--white-op50);
+}
+.about-section-one .about-counter-box {
+    background: var(--white-op7);
+}
+.about-section-one .about-box-content p,
+.our-facilities-section-one .facilities-content p{
+    color: var(--white-op60);
+}
+.ativities-luxury-section-one,
+.blog-section-one {
+    background: var(--dark-color3);
+}
+.section-border {
+    border-bottom: 1px solid var(--white-op10);
+}
+.testimonial-arrow-box .slider-prev,
+.testimonial-arrow-box .slider-next {
+    color: var(--color-white2);
+    background: var(--white-op10);
+}
+
+.testimonial-section-one .testi-quote {
+    background: var(--white-op10);
+}
+.testimonial-section-one .testi-quote img{
+    filter: brightness(0)invert(1);
+}
+.testimonial-section-one .testi-desc p {
+    color: var(--white-op50);
+}
+.testimonial-section-one .autor-desi{
+    color: var(--white-op60);
+}
+.testimonial-section-one .testi-content-wrap {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    box-shadow:none;
+}
+.blog-section-one .section-border,
+.blog-section-one .section-border {
+    border-bottom: 1px solid var(--white-op10);
+}  
+.blog-section-one .blog-user a span {
+    color: var(--color-gray1);
+}
+.blog-section-one .blog-button a {
+    color: var(--dark-primary);
+}
+
+/* Luxury Hotel classic dark */
+
+.galary-section-one {
+    padding: 200px 0px 0px;
+    background:var(--dark-color3);
+    margin-top: -100px;
+}
+.about-section-one-classic,
+.our-room-suites-section-one.classic,
+.testimonial-section-one-classic,
+.hotel-work-section-one{
+    background: var(--dark-color3);
+}
+.about-section-one-classic .section-desc p{
+    color: var(--white-op50);
+}
+.about-section-one-classic .counter-text h2,
+.about-section-one-classic .counter-text span,
+.about-section-one-classic .counter-text p {
+    color: var(--color-white2);
+}
+.our-room-suites-section-one.classic .single-room-box {
+    background: var(--color-gradient-1);
+    border: 1px solid var(--color-border2);
+}
+.our-room-suites-section-one.classic .room-content h2 {
+    color: var(--color-white2);
+}
+.our-room-suites-section-one.classic .room-info {
+    border-top: 1px solid var(--color-border2);
+    border-bottom: 1px solid var(--color-border2);
+}
+.our-room-suites-section-one.classic .room-info p {
+    color: var(--color-white-op50);
+}
+.our-room-suites-section-one.classic .explore-btn {
+    color: var(--color-white2);
+}
+.our-room-suites-section-one.classic .explore-btn svg path {
+    transition: fill 0.3s ease;
+    fill: var(--color-white);
+}
+.our-facilities-section-one.classic .single-facilities-box {
+    background: var(--white-op20);
+    backdrop-filter: blur(50px);
+}
+.our-facilities-section-one.classic .facilities-content h4,
+.hotel-work-section-one .work-content h1,
+.hotel-work-section-one .work-list ul li,
+.testimonial-section-one-classic .testi-desc p,
+.testimonial-section-one-classic .testi-autor-content h3 {
+    color: var(--color-white);
+}
+.our-facilities-section-one.classic .facilities-content p {
+    color: var(--white-op60);
+}
+.hotel-work-section-one .work-bg {
+    background: var(--dark-color4);
+}
+.hotel-work-section-one .work-content p{
+    color: var(--white-op50);
+}
+.hotel-work-section-one .work-btn a {
+    color: var(--white-op50);
+    border: 1px solid var(--white-op10);
+    background: var(--white-op10);
+}
+.hotel-work-section-one .work-btn a svg path {
+    fill: var(--white-op50);
+}
+.testimonial-section-one-classic .testi-bg {
+    background: var(--dark-primary);
+}
+.testi-quote img {
+    filter: brightness(0)invert(1);
+}
+.testi-autor-content p{
+    color: var(--white-op60);
+}
+.testimonial-section-one-classic .testimonial-arrow-box .slider-prev {
+    background: var(--white-op20);
+    color: var(--color-white);
+}
+.testimonial-section-one-classic .testimonial-arrow-box .slider-prev:hover{
+    background: var(--color-white);
+    color: var(--dark-primary);
+}
+.testimonial-section-one-classic .testimonial-arrow-box .slider-next {
+    background: var(--white-op20);
+    color: var(--color-white);
+}
+.testimonial-section-one-classic .testimonial-arrow-box .slider-next:hover{
+    background: var(--color-white);
+    color: var(--dark-primary);
+}
+
+.about-section-two-classic .add-border {
+    border-bottom: 1px solid var(--white-op10);
+}
+/* hotel resort dark css */
+
+.hero-section-two,
+.about-section-two {
+    background: var(--dark-color1);
+}
+.about-section-two {
+    border-radius: 0;
+}
+.our-room-suites-section-two{
+    background: var(--dark-color3);
+}
+.about-section-two .about-single-box {
+    background: linear-gradient(360deg, #212121 0%, #171717 100%);
+    border:1px solid var(--white-op10);
+}
+.about-section-two .about-title h2,
+.about-section-two .about-btn a,
+.about-section-two .about-single-box.three .about-desc p,
+.about-section-two .about-list-item ul li,
+.our-room-suites-section-two .room-content h2 a,
+.premium-facilities-section-one .premium-facilitie-content h2{
+    color: var(--color-white2);
+}
+.about-section-two .about-desc p,
+.our-room-suites-section-two .room-content p,
+.our-room-suites-section-two .info-item span,
+.premium-facilities-section-one .premium-facilitie-content p{
+    color: var(--white-op50);
+}
+.about-section-two .about-btn a svg path {
+    fill:var(--color-white2);
+}
+.our-room-suites-section-two .border-color {
+    border-bottom: 1px solid var(--white-op10);
+}
+.our-room-suites-section-two .room-suites-bg {
+    background: linear-gradient(360deg, #212121 0%, #171717 100%);
+    border: 1px solid var(--white-op10);
+    box-shadow: none;
+}
+.our-room-suites-section-two .price-tag {
+    color: var(--color-white-op50);
+    border: 1px solid var(--white-op10);
+    background: var(--white-op10);
+}
+.our-room-suites-section-two .room-info {
+    border-top: 1px solid var(--white-op10);
+    border-bottom: 1px solid var(--white-op10);
+}
+.our-room-suites-section-two .explore-btn {
+    color: var(--color-white);
+    border: 1px solid var(--white-op10);
+    background: var(--white-op7);
+}
+.our-room-suites-section-two .explore-btn svg path{
+    fill: var(--color-white);
+}
+.premium-facilities-section-one,
+.marquee-section-one{
+    background: var(--dark-color3);
+}
+.premium-facilities-section-one .add-border {
+    border-top: 1px solid var(--white-op10);
+    border-bottom: 1px solid var(--white-op10);
+}
+.premium-facilities-section-one .add-border::before {
+    background: var(--white-op10);
+}
+.premium-facilities-section-one .add-border::after {
+    background: var(--white-op10);
+}
+.marquee-section-one .marquee-block h3{
+    color: var(--white-op10);
+}
+
+/* hotel resort classic dark css */
+
+.about-section-two-classic,
+.room-suites-section-two-classic,
+.premium-facilities-section-two{
+    background: var(--dark-color1);
+}
+.about-section-two-classic .section-desc p {
+    color: var(--white-op50);
+}
+.about-section-two-classic .about-title h2,
+.about-section-two-classic .about-list ul li {
+    color: var(--color-white);
+}
+.galary-section-one.resort-classic {
+    background: var(--dark-color3);
+}
+.premium-facilities-section-two .add-border {
+    border: 1px solid var(--white-op20);
+}
+.premium-facilities-section-two .add-border::before,
+.premium-facilities-section-two .add-border::after{
+    background: var(--white-op20);
+}
+.premium-facilities-section-two .premium-facilitie-content h2{
+    color: var(--color-white2);
+}
+.premium-facilities-section-two .premium-facilitie-content p{
+    color: var(--white-op60);
+}
+
+/* hotel mountain dark css */
+.hero-section-three,
+.about-section-three,
+.about-section-three .circle-text,
+.rooms-section-one,
+.testimonial-section-three,
+.testimonial-section-three .testi-quote{
+    background: var(--dark-color1);
+}
+.about-section-three .section-desc p,
+.our-room-suites-section-three .room-content p{
+    color: var(--white-op50);
+}
+.about-section-three .about-title h2,
+.about-section-three .about-list ul li,
+.rooms-section-one .rooms-title h1,
+.our-room-suites-section-three .room-content h2 a,
+.testimonial-section-three .testi-autor-content .autor-title {
+    color: var(--color-white);
+}
+.our-room-suites-section-three{
+    background: var(--dark-color3);
+}
+.our-room-suites-section-three .room-suites-number span{
+    color: var(--white-op20);
+}
+.our-room-suites-section-three .room-list ul li{
+    color: var(--color-white2);
+}
+.our-room-suites-section-three .explore-btn {
+    color: var(--white-op60);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--white-op20);
+    background: var(--white-op10);
+}
+.testimonial-section-three .testi-autor-content .autor-desi,
+.testimonial-section-three .testi-desc p{
+    color: var(--white-op60);
+}
+.testimonial-section-three .testi-content-wrap{
+    background: var(--white-op7);
+}
+.testimonial-section-three .testimonial-arrow-box .slider-prev{
+    background: var(--white-op10);
+    color: var(--color-white);
+}
+.testimonial-section-three .testimonial-arrow-box .slider-next{
+   background: var(--white-op10); 
+   color: var(--color-white);
+}
+
+/* hotel mountain classic dark css */
+.room-suites-section-three-classic,
+.about-section-three-classic,
+.about-section-three-classic .circle-text,
+.premium-facilities-section-two.mountain-classic,
+.hotel-season-offer-section{
+    background: var(--dark-color1);
+}
+.room-suites-section-three-classic .room-content {
+    background: var(--color-white-op5);
+}
+.room-suites-section-three-classic .room-suites-title h2 a{
+    color: var(--color-white);
+}
+.room-suites-section-three-classic .suites-icon-box {
+    border-bottom: 1px solid var(--color-border2);
+}
+.room-suites-section-three-classic .room-list ul li,
+.about-section-three-classic .section-desc p{
+    color: var(--white-op50);
+}
+.about-section-three-classic .counter-text h2,
+.about-section-three-classic .counter-text span,
+.about-section-three-classic .counter-text p{
+    color: var(--color-white2);
+}
+
+.rooms-suites-grid-section{
+    background: var(--dark-color3);
+}
+.rooms-suites-grid-section .suites-grid_menu ul li {
+    color: var(--white-op50);
+    border: 1px solid var(--color-border2);
+}
+.rooms-suites-grid-section .menu-filtering {
+    border: 1px solid var(--color-border2);
+}
+.rooms-suites-grid-section .rooms-suites-grid-box {
+    background: var(--color-white-op5);
+    border: 1px solid var(--color-border2);
+}
+.rooms-suites-grid-section .rooms-suites-content h2 a{
+    color: var(--color-white2);
+}
+.rooms-suites-grid-section .detail-item span {
+    color: var(--white-op50);
+}
+.rooms-suites-grid-section .room-details {
+    border: 1px solid var(--color-border2);
+}
+.rooms-suites-grid-section .room-details::before {
+    background: var(--color-border2);
+}
+.rooms-suites-grid-section .room-details::after{
+    background: var(--color-border2);
+}
+.rooms-suites-grid-section .room-suite-btn a {
+    background: var(--color-white-op5);
+    border: 1px solid var(--color-border2);
+    color: var(--color-white);
+}
+.rooms-suites-grid-section .room-suite-btn a svg path{
+    fill: var(--color-white);
+}
+.premium-facilities-section-two.mountain-classic .add-border {
+    background: var(--dark-color1);
+    border: 1px solid var(--white-op10);
+}
+.premium-facilities-section-two.mountain-classic .add-border::before {
+    width: 100%;
+}
+.premium-facilities-section-two.mountain-classic .add-border::after {
+    height: 100%;
+}
+.hotel-season-offer-section .single-companies-box{
+    background: var(--dark-color5);
+}
+.hotel-season-offer-section .companies-title h3{
+    color: var(--color-white);
+}
+.room-suites-section-three-classic .room-suites-arrow-box .slider-prev{
+    background:var(--white-op10);
+    color: var(--color-white);
+}
+.room-suites-section-three-classic .room-suites-arrow-box .slider-prev:hover{
+    background: var(--dark-primary);
+}
+.room-suites-section-three-classic .room-suites-arrow-box .slider-next {
+    background:var(--white-op10);
+    color: var(--color-white);
+}
+.room-suites-section-three-classic .room-suites-arrow-box .slider-next:hover{
+    background: var(--dark-primary);
+}
+.about-section-three .add-border {
+    border-bottom: 1px solid var(--white-op10);
+}
